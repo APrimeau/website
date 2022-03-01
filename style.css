@@ -3,7 +3,7 @@
   font: size 100%
 }
 body {
-  background-color: lavender;
+  background-color: grey;
   color: purple;
   font-family: 'Hubballi', cursive;
   font-family: 'Smooch Sans', sans-serif;
@@ -61,3 +61,13 @@ a:hover {
 a:vistited {
   color: grey;
 }
+
+ol {
+  font-size: 21px;
+}
+
+li {
+  font-size: 19px;
+}
+
+<br>
