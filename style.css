@@ -1,22 +1,63 @@
+/* Website styles */
+*{
+  font: size 100%
+}
 body {
   background-color: lavender;
   color: purple;
   font-family: 'Hubballi', cursive;
   font-family: 'Smooch Sans', sans-serif;
+  font-size: 14px;
 }
 
 h1 {
   color: darkpurple;
+  font-size: 36px;
+  text-align: left;
 }
 
 h2 {
   color: purple;
+  font-size:24px;
 }
 
 p {
   color: black;
+  font-size: 19px;
+  line-height: 2;
 }
 
 li {
   color: black;
+}
+
+h1, h2, h3 {
+  font-weight: 600;
+  font-style: oblique;
+}
+
+footer{
+  font-size: 19px;
+}
+footer p {
+  font-size: 22px;
+}
+
+header h1 {
+    text-align: center;
+}
+
+a:link,
+a:focus,
+a:active {
+  color: red;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:vistited {
+  color: grey;
 }
