@@ -1,13 +1,19 @@
 /* Website styles */
 *{
-  font: size 100%
+  font-size: 100%;
+  /* border:1px solid purple;  */
+  margin: 0;
+  line-height: 1;
+  box-sizing: border-box;
 }
+
 body {
   background-color: grey;
   color: purple;
   font-family: 'Hubballi', cursive;
   font-family: 'Smooch Sans', sans-serif;
   font-size: 14px;
+  margin: 20px;
 }
 
 h1 {
@@ -25,6 +31,9 @@ p {
   color: black;
   font-size: 19px;
   line-height: 2;
+  margin: 15px 0;
+  /* border: 1px dotted purple; */
+  /* padding: 30px; */
 }
 
 li {
@@ -34,9 +43,18 @@ li {
 h1, h2, h3 {
   font-weight: 600;
   font-style: oblique;
+  margin-bottom: 20px;
+  border: 1px solid purple;
 }
 
-footer{
+header {
+  /* background-color: blue; */
+  /* border-bottom: 5px solid blue; */
+  margin: 20px;
+  padding: 10px;
+}
+
+footer {
   font-size: 19px;
 }
 footer p {
@@ -62,6 +80,11 @@ a:vistited {
   color: grey;
 }
 
+ul, ol {
+  margin: 15px 0;
+  /* padding: 30px; */
+}
+
 ol {
   font-size: 21px;
 }
@@ -70,4 +93,12 @@ li {
   font-size: 19px;
 }
 
-<br>
+img {
+  /* width: 300px; */
+  height: 200px;
+}
+
+.title {
+  font-size: 48px;
+  text-decoration: underline;
+}
