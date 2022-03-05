@@ -31,7 +31,7 @@ h2 {
 
 p {
   color: black;
-  font-size: 19px;
+  font-size: 25px;
   line-height: 2;
   margin: 15px 0;
   /* border: 1px dotted purple; */
@@ -46,7 +46,7 @@ h1, h2, h3 {
   font-weight: 600;
   font-style: oblique;
   margin-bottom: 20px;
-  border: 1px solid purple;
+  /* border: 1px solid purple; */
 }
 
 header {
@@ -72,6 +72,7 @@ a:focus,
 a:active {
   color: red;
   text-decoration: none;
+  font-size: 25px;
 }
 
 a:hover {
@@ -88,15 +89,15 @@ ul, ol {
 }
 
 ol {
-  font-size: 21px;
+  font-size: 25px;
 }
 
 li {
-  font-size: 19px;
+  font-size: 25px;
 }
 
 img {
-  /* width: 300px; */
+  width: 300px; 
   height: 200px;
 }
 
