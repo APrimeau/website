@@ -90,20 +90,22 @@ ul, ol {
 
 ol {
   font-size: 25px;
+  text-decortation: bold;
 }
 
 li {
   font-size: 25px;
+  text-decoration: bold;
 }
 
 img {
-  width: 300px; 
+  width: 300px;
   height: 200px;
 }
 
 .title {
   font-size: 48px;
-  text-decoration: underline;
+  /* text-decoration: underline; */
 }
 
 .about {
